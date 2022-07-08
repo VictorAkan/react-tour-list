@@ -1,12 +1,10 @@
 import './App.css';
-import Header from './components/Header';
-import TourList from './components/TourList';
+import Navigation from "./Navigation"
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <TourList />
+      <Navigation />
     </div>
   );
 }
